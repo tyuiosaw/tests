@@ -34,12 +34,11 @@ console.log(getChar('John Doe', 1))
 
 //5
 
-const removeFirstOccurrences = (str, substr) => {
-  return str.replace(substr, '');
+const removeFirstOccurrences = (text, podtext) => {
+  return text.replace( ${podtext}, '').replace(${podtext} , '').replace(podtext, '');
 }
 
 console.log(removeFirstOccurrences('ABABAB', 'BA'))
-
 
 //6 
 
